@@ -1,3 +1,5 @@
+## Nirina Crépin 
+
 # Samples and exercises for Software and Quality lecture
 
 This repository contains material for the theoretical course.
