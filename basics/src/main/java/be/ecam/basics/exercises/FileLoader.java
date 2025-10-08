@@ -13,9 +13,9 @@ public class FileLoader {
         try {
             br = Files.newBufferedReader(path, StandardCharsets.UTF_8);
             return br.readLine();
-        } catch (IOException e) {
-            // return null;
-            throw e; // added - throws IOException to relaunch exception instead of null
+        // } catch (IOException e) { // removed - Teacher correction to 
+        //     // return null;
+        //     throw e; // added - throws IOException to relaunch exception instead of null
         } finally {
             if (br != null) {
                 try { br.close(); } catch (IOException ignored) { }
